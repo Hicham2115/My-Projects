@@ -1,0 +1,219 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+body{
+    margin: 0;
+    padding: 0;
+    font-family: "Quicksand", sans-serif;
+    height: 100%;
+    background-color: #f2f2ec;
+}
+.header{
+    background-image: url(back_img.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 565px;
+}
+.Navbar{
+    display: flex;
+    gap: 40px;
+    color: white;
+    padding-left: 700px;
+    position: relative;
+    top: -60px;
+    color: white;
+    font-weight: bold;
+} 
+.logo{
+   padding-left: 150px;
+} 
+.Welcome-mssj{
+    position: absolute;
+    left: 280px;
+    top: 200px;
+}
+h1{
+    font-size: 40px;
+    color: white;
+}
+span{
+    color: #e9b65a;
+}
+h3{
+    padding-left: 100px;
+    position:absolute;
+    top: 70px;
+    color: white;
+
+}
+.button {
+    cursor: pointer;
+    position: relative;
+    padding: 10px 24px;
+    font-size: 18px;
+    color: rgb(255, 255, 255);
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 34px;
+    background-color: transparent;
+    font-weight: 600;
+    transition: all 0.3s cubic-bezier(0.23, 1, 0.320, 1);
+    overflow: hidden;
+    left: 550px;
+    top: 250px;
+  }
+  
+  .button::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    margin: auto;
+    width: 50px;
+    height: 50px;
+    border-radius: inherit;
+    scale: 0;
+    z-index: -1;
+    background-color: rgb(193, 163, 98);
+    transition: all 0.6s cubic-bezier(0.23, 1, 0.320, 1);
+
+  }
+  
+  .button:hover::before {
+    scale: 3;
+  }
+  
+  .button:hover {
+    color: #212121;
+    scale: 1.1;
+    box-shadow: 0 0px 20px rgba(193, 163, 98,0.4);
+  }
+  
+  .button:active {
+    scale: 1;
+  }  
+
+.Home:hover{
+    border-bottom: solid 2px #e9b65a;
+    cursor: pointer;
+    padding-bottom: 20px;
+}
+.About:hover{
+    border-bottom: solid 2px #e9b65a;
+    cursor: pointer;
+    padding-bottom: 20px;
+}
+.Menu:hover{
+    border-bottom: solid 2px #e9b65a;
+    cursor: pointer;
+    padding-bottom: 20px;
+}
+.Gallery:hover{
+    border-bottom: solid 2px #e9b65a;
+    cursor: pointer;
+    padding-bottom: 20px;
+}
+.Contact:hover{
+    border-bottom: solid 2px #e9b65a;
+    cursor: pointer;
+    padding-bottom: 20px;
+}
+.button1 {
+    cursor: pointer;
+    position: relative;
+    padding: 10px 24px;
+    font-size: 18px;
+    color: #3b3946;
+    border: 2px solid #3b3946;
+    border-radius: 34px;
+    background-color: transparent;
+    font-weight: 600;
+    transition: all 0.3s cubic-bezier(0.23, 1, 0.320, 1);
+    overflow: hidden;
+    left: 20px;
+    top: 250px;
+  }
+  
+  .button1::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    margin: auto;
+    width: 50px;
+    height: 50px;
+    border-radius: inherit;
+    scale: 0;
+    z-index: -1;
+    background-color: rgb(193, 163, 98);
+    transition: all 0.6s cubic-bezier(0.23, 1, 0.320, 1);
+
+  }
+  
+  .button1:hover::before {
+    scale: 3;
+  }
+  
+  .button1:hover {
+    color: #212121;
+    scale: 1.1;
+    box-shadow: 0 0px 20px rgba(193, 163, 98,0.4);
+  }
+  
+  .button1:active {
+    scale: 1;
+  }  
+.bleu{
+    height: 500px;
+    width: 100%;
+    background-color: #212121;
+    position: absolute;
+    top: 1200px;
+    background-image: url(offer-background.jpg);
+}
+.imgs{
+    display: flex;
+    gap: 200px;
+    padding-left: 130px;
+    position: absolute;
+    top: 90px;
+}
+.h2s{
+    display: flex;
+    gap: 200px;
+    padding-left: 150px;
+    position: absolute;
+    top: 300px;
+    color: white;
+}
+.lorems{
+    display: flex;
+    gap: 20px;
+    padding-left: 60px;
+    position: absolute;
+    top: 350px;
+    color: white;  
+}  
+.prices{
+    display: flex;
+    gap: 310px;
+    padding-left: 160px;
+    position: absolute;
+    top: 430px;
+    color: white;  
+    font-weight: bold;
+}
+.Dishes{
+  display: grid;
+  position: absolute;
+  top: 1900px;
+  left: 40px;
+  gap: 40px;
+  
+}
+.Dishes1{
+  display: grid;
+  position: absolute;
+  top: 1900px;
+  left: 680px;
+  gap: 40px;
+  width: 1px;
+}
+.btn11:hover {
+  color: #212121;
+}
