@@ -1,0 +1,167 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+body {
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #e9e9ed;
+}
+.budget {
+  height: 230px;
+  width: 45%;
+  border: none;
+  border-radius: 7px;
+  display: flex;
+  flex-direction: column;
+  margin-left: 50px;
+  margin-top: 10px;
+  background-color: white;
+}
+.budget h1 {
+  padding-left: 22px;
+  font-size: large;
+}
+.budget input {
+  outline: none;
+  height: 40px;
+  border: 1px solid black;
+  border-radius: 7px;
+  width: 90%;
+  margin-left: 20px;
+}
+.budget button {
+  padding: 10px 10px;
+  width: 100px;
+  background-color: #5283f8;
+  border: none;
+  cursor: pointer;
+  border-radius: 7px;
+  margin-left: 20px;
+  margin-top: 20px;
+  color: white;
+}
+
+.expenses {
+  height: 230px;
+  width: 45%;
+  border: none;
+  border-radius: 7px;
+  display: flex;
+  flex-direction: column;
+  margin-left: 660px;
+  margin-top: -230px;
+  background-color: white;
+}
+.expenses h1 {
+  padding-left: 22px;
+  font-size: large;
+}
+.expenses input {
+  outline: none;
+  height: 40px;
+  border: 1px solid black;
+  border-radius: 7px;
+  width: 90%;
+  margin-left: 20px;
+  margin-bottom: 10px;
+}
+.expenses button {
+  padding: 10px 10px;
+  width: 130px;
+  background-color: #5283f8;
+  border: none;
+  cursor: pointer;
+  border-radius: 7px;
+  margin-left: 20px;
+  margin-top: 10px;
+  color: white;
+}
+
+.blue-bar {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 300px;
+  background-color: #5283f8;
+  color: white;
+  font-size: small;
+  height: 100px;
+  border-radius: 10px;
+  width: 85%;
+  margin: auto;
+  margin-top: 20px;
+}
+.numbs {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 330px;
+  color: white;
+  font-size: small;
+  height: 100px;
+  border-radius: 10px;
+  width: 85%;
+  margin: auto;
+  margin-top: -60px;
+  margin-left: 110px;
+}
+.numbs h2 {
+  font-weight: 400;
+}
+#Expenses-list {
+  background-color: white;
+  color: white;
+  height: auto;
+  border-radius: 10px;
+  width: 85%;
+  margin: auto;
+  margin-top: -20px;
+  height: 140px;
+  display: flex;
+  flex-direction: column;
+}
+#expensesh1 {
+  color: black;
+  font-size: large;
+  padding-left: 20px;
+  padding-top: 20px;
+}
+/*#h2 {
+  color: black;
+  font-size: xx-large;
+  font-weight: bolder;
+  padding-left: 20px;
+  padding-top: 20px;
+  color: #  ;
+  margin-top: -5px;
+}
+#product-title {
+  color: black;
+  font-size: large;
+  margin-top: -70px;
+  margin-left: 20px;
+  font-weight: 500;
+}
+#product-price {
+  color: black;
+  font-size: large;
+  margin-top: -55px;
+  margin-left: 500px;
+  font-weight: 500;
+}
+#firsti {
+  color: #5283f8;
+  margin-left: 800px;
+  position: absolute;
+  top: 480px;
+  font-size: x-large;
+  cursor: pointer;
+  visibility: hidden;
+}
+#secondi {
+  color: #5283f8;
+  margin-left: 1010px;
+  font-size: x-large;
+  position: absolute;
+  top: 480px;
+  cursor: pointer;
+  visibility: hidden;
+} */

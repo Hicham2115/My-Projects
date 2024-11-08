@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Coding a Budget App</title>
+  </head>
+  <body>
+    <div class="budget">
+      <h1>Budget</h1>
+      <input type="text" id="input-budget" placeholder="Enter Total Amount" />
+      <button id="btn-budget">Set Budget</button>
+    </div>
+
+    <div class="expenses">
+      <h1>Expenses</h1>
+      <input
+        type="text"
+        id="input-expenses"
+        placeholder="Enter Title Of Product"
+      />
+      <input
+        type="number"
+        id="input-expenses1"
+        placeholder="Enter Cost Of Product"
+      />
+      <button id="btn-expenses">Check Amount</button>
+    </div>
+
+    <div class="blue-bar">
+      <h2>Total Budget</h2>
+      <h2>Expenses</h2>
+      <h2>Balance</h2>
+    </div>
+    <div class="numbs">
+      <h2 id="number-budget"></h2>
+      <h2 id="number-expenses"></h2>
+      <h2 id="number-balance"></h2>
+    </div>
+    <div id="Expenses-list">
+      <h1 id="expensesh1">Expenses List</h1>
+      <!-- <h2>&#124;</h2>
+      <h2 id="product-title">Product Title</h2>
+      <h2 id="product-price">26</h2> -->
+      <!-- <i
+        class="bx bxs-edit" id="firsti"></i>
+      <i
+        class="bx bx-trash" id="secondi"></i>  -->
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
