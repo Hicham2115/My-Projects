@@ -1,0 +1,207 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+  background-color: rgba(34, 34, 34, 255);
+}
+header h1 {
+  color: white;
+  text-align: center;
+  margin-top: 50px;
+}
+#h1two {
+  margin-top: 10px;
+  font-weight: normal;
+}
+#container {
+  display: flex;
+  flex-direction: column;
+}
+#title {
+  height: 40px;
+  background-color: #111111;
+  border-radius: 10px;
+  width: 80%;
+  margin: auto;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+input {
+  border: 1px solid black;
+  color: white;
+}
+input::placeholder {
+  color: white;
+}
+button {
+  color: white;
+  cursor: pointer;
+  border: 1px solid black;
+}
+#create:hover {
+  background-color: violet;
+  width: 90%;
+  transition: 0.5s ease;
+}
+#searchbytitle:hover {
+  background-color: violet;
+  transition: 0.5s ease;
+}
+#searchbycategoty:hover {
+  background-color: violet;
+  transition: 0.5s ease;
+}
+#deleteall:hover {
+  background-color: violet;
+  width: 90%;
+  transition: 0.5s ease;
+}
+#Update:hover {
+  background-color: violet;
+  transition: 0.5s ease;
+}
+#Delete:hover {
+  background-color: violet;
+  transition: 0.5s ease;
+}
+#price {
+  height: 40px;
+  background-color: #111111;
+  border-radius: 10px;
+  width: 12%;
+  margin-left: 125px;
+  margin-top: 10px;
+}
+#taxes {
+  height: 40px;
+  background-color: #111111;
+  border-radius: 10px;
+  width: 12%;
+  margin-top: 10px;
+}
+#flex {
+  display: flex;
+  gap: 50px;
+}
+#ads {
+  height: 40px;
+  background-color: #111111;
+  border-radius: 10px;
+  width: 12%;
+  margin-top: 10px;
+}
+#discount {
+  height: 40px;
+  background-color: #111111;
+  border-radius: 10px;
+  width: 12%;
+  margin-top: 10px;
+}
+#total {
+  background-color: #ee7f7f;
+  color: white;
+  font-weight: normal;
+  height: 50%;
+  border-radius: 10px;
+  padding: 5px 5px;
+  margin-top: 15px;
+}
+#count {
+  height: 40px;
+  background-color: #111111;
+  border-radius: 10px;
+  width: 80%;
+  margin: auto;
+  margin-top: 10px;
+}
+#category {
+  height: 40px;
+  background-color: #111111;
+  border-radius: 10px;
+  width: 80%;
+  margin: auto;
+  margin-top: 10px;
+}
+#create {
+  height: 40px;
+  background-color: #280666;
+  border-radius: 20px;
+  width: 80%;
+  margin: auto;
+  margin-top: 10px;
+  font-weight: bold;
+}
+#searchinput {
+  height: 40px;
+  background-color: #111111;
+  border-radius: 10px;
+  width: 80%;
+  margin: auto;
+  margin-top: 10px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+#flex2 {
+  display: flex;
+  gap: 5%;
+  height: 50px;
+}
+#searchbytitle {
+  margin-left: 150px;
+  margin-top: 10px;
+  width: 300px;
+  height: 40px;
+  border-radius: 20px;
+  background-color: #280666;
+}
+#searchbycategoty {
+  margin-left: 313px;
+  margin-top: 10px;
+  width: 300px;
+  height: 40px;
+  border-radius: 20px;
+  background-color: #280666;
+}
+#deleteall {
+  height: 40px;
+  background-color: #280666;
+  border-radius: 20px;
+  width: 80%;
+  margin: auto;
+  margin-top: 10px;
+  font-weight: bold;
+}
+table {
+  border-top: 1px solid white;
+  width: 80%;
+  margin-top: 20px;
+  height: 100%;
+  margin-left: 150px;
+  color: white;
+  text-align: center;
+}
+
+table th {
+  border-bottom: 1px solid white;
+}
+table td {
+  border-bottom: 1px solid white;
+}
+#Update {
+  height: 40px;
+  border-radius: 20px;
+  background-color: #280666;
+  width: 80%;
+  padding: 10px 10px;
+  margin: 5px;
+}
+#Delete {
+  height: 40px;
+  border-radius: 20px;
+  background-color: #280666;
+  width: 80%;
+  padding: 10px 10px;
+  margin: 5px;
+}
