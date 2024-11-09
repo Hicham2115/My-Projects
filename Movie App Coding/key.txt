@@ -1,0 +1,14 @@
+e0c2c2b05b237b06164181434a282895
+
+Search for a movie:
+
+https://api.themoviedb.org/3/search/movie?api_key={apiKey}&query=
+
+
+Load more results (discover popular movies):
+
+https://api.themoviedb.org/3/discover/movie?sort_by=popularity.desc&api_key={apiKey}&page={page}
+
+
+
+https://api.themoviedb.org/
