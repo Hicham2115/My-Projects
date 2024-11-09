@@ -1,0 +1,168 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+* {
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #07263c;
+}
+#container {
+  background-color: white;
+  height: 500px;
+  width: 700px;
+  margin: auto;
+  margin-top: 50px;
+  border-radius: 10px;
+}
+#container2 {
+  background-color: white;
+  height: 410px;
+  position: absolute;
+  width: 54.7%;
+  top: 90px;
+}
+#container2 #input {
+  margin-top: 50px;
+  height: 300px;
+  width: 49%;
+  position: relative;
+  left: 10px;
+  background-color: white;
+  border: 1px solid #07263c;
+  outline: none;
+  font-weight: bold;
+  font-size: large;
+  border-radius: 10px 0px 0px 0px;
+  padding: 20px 20px;
+  resize: none;
+}
+#input::placeholder {
+  font-weight: bold;
+  font-size: large;
+  color: rgb(183, 181, 181);
+}
+#container2 #p {
+  height: 300px;
+  font-weight: bold;
+  font-size: large;
+  background-color: white;
+  width: 49%;
+  border: 1px solid #07263c;
+  position: relative;
+  left: 6px;
+  border-radius: 0px 10px 0px 0px;
+  outline: none;
+  padding: 20px 20px;
+  resize: none;
+}
+#p::placeholder {
+  font-weight: bold;
+  font-size: large;
+  color: rgb(183, 181, 181);
+}
+#controls {
+  position: absolute;
+  background-color: white;
+  width: 686px;
+  height: 50px;
+  top: 440px;
+  left: 300px;
+  border: 1px solid #07263c;
+  display: flex;
+  gap: 50px;
+}
+#controls i {
+  color: black;
+  background-color: white;
+}
+#controls #select1 {
+  color: #07263c;
+  background-color: white;
+  outline: none;
+  border: none;
+  padding: 0px 20px;
+  margin-left: -30px;
+  font-weight: bold;
+  font-size: large;
+  cursor: pointer;
+}
+#controls #i1 {
+  font-size: x-large;
+  margin-top: 10px;
+  margin-left: 30px;
+  cursor: pointer;
+}
+#controls #i2 {
+  font-size: x-large;
+  margin-top: 10px;
+  margin-left: -30px;
+  cursor: pointer;
+}
+#controls #i3 {
+  font-size: xx-large;
+  margin-top: 10px;
+  margin-left: 10px;
+  color: rgb(183, 181, 181);
+  cursor: pointer;
+}
+
+#controls2 {
+  position: absolute;
+  background-color: white;
+  height: 30px;
+  top: 450px;
+  left: 700px;
+  display: flex;
+  gap: 50px;
+}
+#controls2 i {
+  color: black;
+  cursor: pointer;
+  background-color: white;
+}
+#controls2 #select2 {
+  color: #07263c;
+  background-color: white;
+  outline: none;
+  border: none;
+  padding: 0px 20px;
+  margin-left: -30px;
+  font-weight: bold;
+  font-size: large;
+  cursor: pointer;
+}
+#controls2 #i4 {
+  font-size: x-large;
+  margin-top: 3px;
+}
+#controls2 #i5 {
+  font-size: x-large;
+  margin-top: 3px;
+  margin-left: -20px;
+  cursor: pointer;
+}
+#Transalte {
+  border: none;
+  background-color: #07263c;
+  color: white;
+  font-size: large;
+  font-weight: normal;
+  width: 687px;
+  height: 45px;
+  cursor: pointer;
+  border-radius: 7px;
+  position: absolute;
+  top: 500px;
+  left: 300px;
+}
+#Transalte:hover {
+  background-color: black;
+  color: white;
+  transition: 0.5s ease;
+}
+#select1 option {
+  background-color: white;
+}
+#select2 option {
+  background-color: white;
+}
