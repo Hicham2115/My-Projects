@@ -1,0 +1,68 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+* {
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+h1 {
+  color: gray;
+  text-align: center;
+  margin-top: 20px;
+}
+#container {
+  display: grid;
+  grid-template-columns: repeat(3, 150px);
+  grid-template-rows: repeat(3, 150px);
+  grid-column: 1/4;
+  grid-row: 1/4;
+  gap: 10px;
+  margin-top: 20px;
+}
+div {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  width: 150px;
+  height: 150px;
+  margin: auto;
+  font-size: 48px;
+  border: 1px solid #333;
+  cursor: pointer;
+  background-color: #fff;
+  transition: background-color 0.5s;
+}
+#div1:hover {
+  background-color: #e0e0e0;
+}
+#div2:hover {
+  background-color: #e0e0e0;
+}
+
+#div3:hover {
+  background-color: #e0e0e0;
+}
+
+#div4:hover {
+  background-color: #e0e0e0;
+}
+
+#div5:hover {
+  background-color: #e0e0e0;
+}
+
+#div6:hover {
+  background-color: #e0e0e0;
+}
+
+#div7:hover {
+  background-color: #e0e0e0;
+}
+
+#div8:hover {
+  background-color: #e0e0e0;
+}
+#div9:hover {
+  background-color: #e0e0e0;
+}
