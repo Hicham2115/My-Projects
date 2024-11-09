@@ -1,0 +1,162 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+body {
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(black 50%, #e3a524 50%);
+  height: 100vh;
+  font-family: "Roboto", sans-serif;
+}
+.container {
+  height: 150px;
+  width: 550px;
+  background-color: #1e293b;
+  position: absolute;
+  left: 370px;
+  top: 200px;
+  border: 1px solid black;
+  border-radius: 20px;
+}
+
+.container input {
+  position: absolute;
+  border: 1px solid white;
+  border-radius: 5px;
+  left: 30px;
+  width: 350px;
+  height: 30px;
+  top: 40px;
+  color: white;
+  background-color: #1e293b;
+}
+
+.container button {
+  position: absolute;
+  left: 400px;
+  top: 38px;
+  background-color: #e3a524;
+  padding: 10px 10px;
+  width: 110px;
+  border: solid 1px black;
+  border-radius: 5px;
+  cursor: pointer;
+}
+#result {
+  color: white;
+  font-weight: bold;
+  position: absolute;
+  top: 90px;
+  left: 210px;
+  font-size: larger;
+}
+.container2 {
+  height: 550px;
+  width: 550px;
+  background-color: #1e293b;
+  position: absolute;
+  top: -190px;
+  border: 1px solid black;
+  border-radius: 20px;
+  visibility: hidden;
+}
+#result1 {
+  color: white;
+  font-weight: bold;
+  position: absolute;
+  top: 90px;
+  left: 330px;
+  font-size: x-large;
+}
+#rating {
+  color: white;
+  font-weight: bold;
+  position: absolute;
+  top: 137px;
+  left: 370px;
+  font-size: x-large;
+}
+#rated {
+  color: rgb(137, 135, 135);
+  font-weight: normal;
+  position: absolute;
+  top: 190px;
+  left: 250px;
+  font-size: large;
+}
+#year {
+  color: rgb(137, 135, 135);
+  font-weight: normal;
+  position: absolute;
+  top: 190px;
+  left: 330px;
+  font-size: large;
+}
+#runtime {
+  color: rgb(137, 135, 135);
+  font-weight: normal;
+  position: absolute;
+  top: 190px;
+  left: 450px;
+  font-size: large;
+}
+#Genre {
+  color: rgb(255, 255, 255);
+  font-weight: normal;
+  position: absolute;
+  top: 240px;
+  left: 250px;
+  border: 1px solid white;
+  border-radius: 10px;
+  width: 200px;
+  text-align: center;
+  padding: 5px 5px;
+  font-size: small;
+}
+.poster {
+  height: 260px;
+  width: 200px;
+  border: 1px solid black;
+  position: absolute;
+  top: 90px;
+}
+#castlabel {
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  position: absolute;
+  top: 450px;
+  left: 10px;
+  width: 80px;
+  text-align: center;
+  padding: 5px 5px;
+  font-size: x-large;
+}
+#cast {
+  color: rgb(137, 135, 135);
+  font-weight: normal;
+  position: absolute;
+  top: 470px;
+  left: 10px;
+  text-align: center;
+  padding: 5px 5px;
+  font-size: medium;
+  white-space: pre;
+}
+#plotlabel {
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  position: absolute;
+  top: 350px;
+  left: 10px;
+  width: 80px;
+  text-align: center;
+  padding: 5px 5px;
+  font-size: x-large;
+}
+#plot {
+  color: rgb(137, 135, 135);
+  font-weight: normal;
+  position: absolute;
+  top: 370px;
+  left: 10px;
+  padding: 5px 5px;
+  font-size: medium;
+}
