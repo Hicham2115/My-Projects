@@ -1,0 +1,4 @@
+135a84cd3ec4c6d6fd8c3f4efab4f364
+
+
+https://api.openweathermap.org/data/2.5/weather?q=$(city) &units=metric&appid=${APIKey}
